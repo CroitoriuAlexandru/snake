@@ -30,7 +30,7 @@ body {
   min-width: var(--board-size);
   max-width: var(--board-size);
   min-height: var(--board-size);
-  -height: var(--board-size);
+  max-height: var(--board-size);
   display: grid;
   grid-template-rows: repeat(var(--grid-size), 1fr);
   grid-template-columns: repeat(var(--grid-size), 1fr);
