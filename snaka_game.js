@@ -14,7 +14,7 @@ let gameOver = false;
 export function main(currentRenderTime) {
   // Restart game by reload of the page
   if (gameOver) {
-    if (confirm("You hit yourself, press ok to restart")) window.location = "/";
+    if (confirm("You hit yourself, press ok to restart")) window.location = "/snake";
     return;
   }
   window.requestAnimationFrame(main);
